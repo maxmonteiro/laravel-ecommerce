@@ -107,7 +107,36 @@
 
         </div> <!-- end featured-section -->
 
+        <div class="blog-section">
+            <div class="container">
+                <h1 class="text-center">From Our Blog</h1>
 
+                <p class="section-description">It is a long established fact that a reader will be distracted by
+                the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that
+                it has a more-or-less normal distribution of letters,</p>
+
+                <div class="blog-posts">
+                    <div class="blog-post">
+                        <a href="#"><img src="img/blog1.png" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
+                        <div class="blog-description">The point of using Lorem Ipsum is that
+                        it has a more-or-less normal distribution of letters</div>
+                    </div>
+                    <div class="blog-post">
+                        <a href="#"><img src="img/blog2.png" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
+                        <div class="blog-description">The point of using Lorem Ipsum is that
+                        it has a more-or-less normal distribution of letters</div>
+                    </div>
+                    <div class="blog-post">
+                        <a href="#"><img src="img/blog3.png" alt="blog image"></a>
+                        <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
+                        <div class="blog-description">The point of using Lorem Ipsum is that
+                        it has a more-or-less normal distribution of letters</div>
+                    </div>
+                </div> <!-- end blog-posts -->
+            </div> <!-- end container -->
+        </div> <!-- end blog-section -->
 
     </body>
 </html>
