@@ -20,23 +20,94 @@
                     <li><a href="#">Cart</a></li>
                 </ul>
             </div> <!-- end top-nav -->
+        </header> <!-- end header -->
 
-            <div class="hero container">
-                <div class="hero-copy">
-                    <h1>Laravel Ecommerce Example</h1>
-                    <p>A pratical example of using CSS Grid for a typical website layout.</p>
-                    <div class="hero-buttons">
-                        <a href="#" class="button button-white">Button 1</a>
-                        <a href="#" class="button button-white">Button 2</a>
-                    </div>
-                </div> <!-- end hero-copy -->
-
-                <div class="hero-image">
-                    <img src="img/macbook-pro-laravel.png" alt="">
+        <div class="hero container">
+            <div class="hero-copy">
+                <h1>Laravel Ecommerce Example</h1>
+                <p>A pratical example of using CSS Grid for a typical website layout.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="button button-white">Button 1</a>
+                    <a href="#" class="button button-white">Button 2</a>
                 </div>
-            </div> <!-- end hero -->
+            </div> <!-- end hero-copy -->
+
+            <div class="hero-image">
+                <img src="img/macbook-pro-laravel.png" alt="">
+            </div>
+        </div> <!-- end hero -->
+
+        <div class="featured-section">
+            <div class="container">
+                <h1 class="text-center">Laravel Ecommerce</h1>
+
+                <p class="section-description">It is a long established fact that a reader will be distracted by
+                the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that
+                it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                content here', making it look like readable English.</p>
+
+                <div class="text-center button-container">
+                    <a href="#" class="button">Featured</a>
+                    <a href="#" class="button">On Sale</a>
+                </div>
+
+                <div class="products text-center">
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                    <div class="product">
+                        <a href="#"><img src="img/macbook-pro.png" alt="product"></a>
+                        <a href=""><div class="product-name">MacBook Pro</div></a>
+                        <div class="product-price">$1999.99</div>
+                    </div>
+                </div> <!-- end products -->
+
+                <div class="text-center button-container">
+                    <a href="#" class="button">View More</a>
+                </div>
+
+            </div> <!-- end container -->
+
+        </div> <!-- end featured-section -->
 
 
-        </header>
+
     </body>
 </html>
