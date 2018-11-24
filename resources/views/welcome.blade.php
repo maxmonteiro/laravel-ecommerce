@@ -27,22 +27,23 @@
                     <li><a href="#">Cart</a></li>
                 </ul>
             </div> <!-- end top-nav -->
-        </header> <!-- end header -->
 
-        <div class="hero container">
-            <div class="hero-copy">
-                <h1>Laravel Ecommerce Example</h1>
-                <p>A pratical example of using CSS Grid for a typical website layout.</p>
-                <div class="hero-buttons">
-                    <a href="#" class="button button-white">Button 1</a>
-                    <a href="#" class="button button-white">Button 2</a>
+
+            <div class="hero container">
+                <div class="hero-copy">
+                    <h1>Laravel Ecommerce Example</h1>
+                    <p>A pratical example of using CSS Grid for a typical website layout.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="button button-white">Button 1</a>
+                        <a href="#" class="button button-white">Button 2</a>
+                    </div>
+                </div> <!-- end hero-copy -->
+
+                <div class="hero-image">
+                    <img src="img/macbook-pro-laravel.png" alt="">
                 </div>
-            </div> <!-- end hero-copy -->
-
-            <div class="hero-image">
-                <img src="img/macbook-pro-laravel.png" alt="">
-            </div>
-        </div> <!-- end hero -->
+            </div> <!-- end hero -->
+        </header> <!-- end header -->
 
         <div class="featured-section">
             <div class="container">
