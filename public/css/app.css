@@ -10504,6 +10504,14 @@ a.text-dark:focus {
     padding-left: 0;
     margin-top: 40px;
   }
+
+  .featured-section {
+    padding: 50px 0;
+  }
+
+  .featured-section .products {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 /* Small devices, Tablets */
