@@ -45,6 +45,16 @@
             text-align: center;
         }
     }
+    .footer-content {
+        flex-direction: column;
+        .made-with {
+            margin: auto;
+        }
+        ul {
+            margin: 20px auto;
+            width: 60%;
+        }
+    }
 }
 
 

@@ -10517,6 +10517,22 @@ a.text-dark:focus {
     grid-template-columns: 1fr !important;
     text-align: center;
   }
+
+  .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer-content .made-with {
+    margin: auto;
+  }
+
+  .footer-content ul {
+    margin: 20px auto;
+    width: 60%;
+  }
 }
 
 /* Small devices, Tablets */
