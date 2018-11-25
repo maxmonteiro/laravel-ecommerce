@@ -10491,6 +10491,11 @@ body {
   line-height: 1.6;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
 a {
   text-decoration: none;
   color: #212121;
@@ -10498,6 +10503,14 @@ a {
 
 a:visited {
   color: #212121;
+}
+
+a.button:hover {
+  text-decoration: none;
+}
+
+a.button:hover .button-white:hover {
+  text-decoration: none;
 }
 
 h1,
@@ -10529,9 +10542,89 @@ img {
   margin: auto;
 }
 
+.button {
+  border: 1px solid #212121;
+  padding: 12px 40px;
+}
+
+.button:hover {
+  color: #fff;
+  background: #212121;
+}
+
+.button-white {
+  border: 1px solid #fff;
+  color: #fff !important;
+}
+
+.button-white:hover {
+  color: #212121 !important;
+  background: white;
+}
+
 header {
   background: url("/img/triangles.svg");
   background-size: cover;
   color: white;
+}
+
+header .top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0;
+}
+
+header .top-nav .logo {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+header .top-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+
+header .top-nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .top-nav ul a:hover {
+  color: #e6e5e5;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 84px;
+}
+
+.hero .hero-image {
+  padding-left: 60px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-top: 50px;
+}
+
+.hero p {
+  margin: 40px 0 68px;
+}
+
+.hero .button {
+  margin-right: 14px;
 }
 
