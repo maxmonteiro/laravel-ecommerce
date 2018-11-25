@@ -124,19 +124,19 @@
                 it has a more-or-less normal distribution of letters,</p>
 
                 <div class="blog-posts">
-                    <div class="blog-post">
+                    <div class="blog-post" id="blog1">
                         <a href="#"><img src="img/blog1.png" alt="blog image"></a>
                         <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
                         <div class="blog-description">The point of using Lorem Ipsum is that
                         it has a more-or-less normal distribution of letters</div>
                     </div>
-                    <div class="blog-post">
+                    <div class="blog-post" id="blog2">
                         <a href="#"><img src="img/blog2.png" alt="blog image"></a>
                         <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
                         <div class="blog-description">The point of using Lorem Ipsum is that
                         it has a more-or-less normal distribution of letters</div>
                     </div>
-                    <div class="blog-post">
+                    <div class="blog-post" id="blog3">
                         <a href="#"><img src="img/blog3.png" alt="blog image"></a>
                         <a href="#"><h2 class="blog-title">Blog Post Title 1</h2></a>
                         <div class="blog-description">The point of using Lorem Ipsum is that
