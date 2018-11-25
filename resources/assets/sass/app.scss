@@ -1,12 +1,5 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-// Variables
-@import 'variables';
-$text-color: #212121;
-$light-gray-background: #F5F5F5;
-$gray-background: #535353;
-$separator-color: #CDCDCD;
-$gutter: 30px;
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 @import 'responsive.scss';
@@ -15,6 +8,8 @@ $gutter: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+// Variables
+@import 'abstracts/variables';
 html {
     box-sizing: border-box;
 }

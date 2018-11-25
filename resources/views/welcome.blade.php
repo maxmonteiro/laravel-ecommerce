@@ -32,10 +32,10 @@
             <div class="hero container">
                 <div class="hero-copy">
                     <h1>Laravel Ecommerce Example</h1>
-                    <p>A pratical example of using CSS Grid for a typical website layout.</p>
+                    <p>Includes multiple products, categories, a shopping cart and a checkout system</p>
                     <div class="hero-buttons">
-                        <a href="#" class="button button-white">Button 1</a>
-                        <a href="#" class="button button-white">Button 2</a>
+                        <a href="#" class="button button-white">Blog Post</a>
+                        <a href="#" class="button button-white">GitHub</a>
                     </div>
                 </div> <!-- end hero-copy -->
 
