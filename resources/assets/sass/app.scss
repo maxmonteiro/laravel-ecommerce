@@ -98,6 +98,15 @@ img {
     }
 }
 
+.section-description {
+    width: 80%;
+    margin: auto;
+}
+
+.button-container {
+    margin: 80px 0;
+}
+
 header {
     background: url('/img/triangles.svg');
     background-size: cover;
@@ -128,7 +137,7 @@ header {
 
 .hero {
     display: grid;
-    grid-template-columns: 1fr 1fr; // cada coluna é metade da coluna
+    grid-template-columns: 1fr 1fr; // cada coluna é metade da soma dos fr
     grid-gap: $gutter;
     padding-top: 20px;
     padding-bottom: 84px;
@@ -144,5 +153,14 @@ header {
     }
     .button {
         margin-right: 14px;
+    }
+}
+
+.featured-section {
+    padding: 50px 0;
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: $gutter;
     }
 }
