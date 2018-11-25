@@ -9,6 +9,7 @@ $separator-color: #CDCDCD;
 $gutter: 30px;
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import 'responsive.scss';
 .navbar-laravel {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
