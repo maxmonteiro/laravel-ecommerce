@@ -39,6 +39,12 @@
             grid-template-columns: 1fr !important;
         }
     }
+    .blog-section {
+        .blog-posts {
+            grid-template-columns: 1fr !important;
+            text-align: center;
+        }
+    }
 }
 
 
