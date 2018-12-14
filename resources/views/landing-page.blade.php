@@ -17,7 +17,7 @@
 
     </head>
     <body>
-        <header>
+        <header class="with-background">
             <div class="top-nav container">
                 <div class="logo">Laravel Ecommerce</div>
                 <ul>
@@ -148,7 +148,7 @@
 
         <footer>
             <div class="footer-content container">
-                <div class="made-with">Made with <i class="fa fa-heart"></i> by Maximo Monteiro</div>
+                <div class="made-with">Made with <i class="fa fa-heart heart"></i> by Maximo Monteiro</div>
                 <ul>
                     <li>Follow Me:</li>
                     <li><a href="#"><i class="fa fa-globe"></i></a></li>
